@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# 📊 ExpenseTracker
 
-## Project info
+A **lightweight personal finance dashboard** built with **Vite + React + TypeScript + Tailwind CSS**, designed to help you track expenses, manage budgets, and visualize your finances in a simple, responsive UI.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Live Preview:** [Finance Master Omega](https://finance-master-omega.vercel.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* Dashboard with **summary cards** and **charts**
+* Manage **Transactions, Categories, Budgets, Accounts, Reports, Goals, Settings**
+* **Mobile-first responsive UI** with accessible hamburger menu
+* **Quick add transaction** button for fast entries
+* Powered by **shadcn/ui style primitives** for clean design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+* **Frontend:** React, TypeScript, Vite
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui
+* **Routing:** React Router
+* **Deployment:** Vercel
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚡ Quickstart
 
-Follow these steps:
+**Prerequisites:** Node.js 18+ and npm
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Install dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Run development server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+3. Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+4. Preview the production build locally
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run preview
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌐 Vercel Deployment Notes
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* This repo includes a `vercel.json` configured for a **Vite SPA** (rewrites all routes to `index.html`).
+* **Project Settings:**
 
-## How can I deploy this project?
+  * **Build Command:** `npm run build`
+  * **Output Directory:** `dist`
+  * **Root Directory:** (folder containing `package.json`)
+* If switching to **Next.js**, remove or adapt `vercel.json` for the Next.js preset.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📁 Important Files
 
-Yes, you can!
+* Mobile nav component: `src/components/layout/MobileNav.tsx`
+* Layout wrapper: `src/components/layout/AppLayout.tsx`
+* Desktop sidebar: `src/components/layout/Sidebar.tsx`
+* Vercel config: `vercel.json`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📱 Mobile Nav & "Powered by Archer"
+
+* The **mobile hamburger menu** contains all navigation items plus an external link: [Archer](https://abdulbasit-archer.vercel.app/)
+* Opens in a **new tab** (`rel="noopener noreferrer"`)
+* To modify the "Powered by" link, edit the anchor in `src/components/layout/MobileNav.tsx` (near the bottom of the nav list)
+
+---
+
+## 🤝 Contributing
+
+* Fork the repository
+* Create a feature branch
+* Submit a Pull Request
+* Keep changes focused and include tests where appropriate
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 📬 Contact
+
+* **Email:** [abdulbasit.alpha25@gmail.com](mailto:abdulbasit.alpha25@gmail.com)
+* **Phone / WhatsApp:** +92 341 5878569
+* **LinkedIn:** [Abdul Basit](https://www.linkedin.com/in/abdul-basit-741977295/)
+
+---
+
+## ✨ Updated Section
+
+This README was updated to include **live preview links, contact info, and additional contribution instructions**.
+
+Do you want me to do that next?

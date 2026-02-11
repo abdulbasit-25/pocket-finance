@@ -111,5 +111,3 @@ MIT License
 ## ✨ Updated Section
 
 This README was updated to include **live preview links, contact info, and additional contribution instructions**.
-
-Do you want me to do that next?
